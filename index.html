@@ -3,18 +3,18 @@
     <link rel="stylesheet" href="bootstrap.css"></link>
   </head>
   <body>
-    <h1>Feedback 
+    <h1>Feedback
       <span ng-show="workshop.attendee">from {{workshop.attendee}}</span>
     </h1>
-    
+
     Name <br/>
     <input type="text" ng-model="workshop.attendee"></input><br/>
 
-    Score <br/> 
+    Score <br/>
     <input type="text" ng-model="workshop.score"></input><br/>
 
     Feedback <br/>
-    <textarea 
+    <textarea
       ng-model="workshop.feedback"
       placeholder="Reason for scoring a {{workshop.score || 0}}">
     </textarea>
