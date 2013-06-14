@@ -4,7 +4,7 @@
   </head>
   <body>
     <h1>Feedback 
-      <span ng-show="workshop.attendee">from {{workshop.attendee}}</span>
+      <span ng-show="workshop.attendee">para {{workshop.attendee}}</span>
     </h1>
     
     Name <br/>
@@ -16,7 +16,7 @@
     Feedback <br/>
     <textarea 
       ng-model="workshop.feedback"
-      placeholder="Reason for scoring a {{workshop.score || 0}}">
+      placeholder="Razon por votar {{workshop.score || 0}}">
     </textarea>
 
     <script src="angular.js"></script>
